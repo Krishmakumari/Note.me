@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: center;     /* Vertically center the content */
+    height: 100vh;           /* Optional: makes the container full viewport height for vertical centering */
+    text-align: center;     
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.logo {
+    height: 255px; 
+    width: 265px; 
+    display: block;   
+        /* Centers the image within its parent container */
+}
+
+.progressBar {
+    width: 30%;              /* Adjust width as needed */
+    height: 12px;            /* Set the height for the progress bar */
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;      /* For positioning the inner progress bar */
+}
+
+.progress {
+    height: 100%;            /* Full height of the progress bar */
+    width: 50%;              /* Set the width to represent 50% completion */
+    background-color: #0e0c0d; 
+    border-radius: 10px 0 0 10px; /* Rounded corners on the left */
+    text-align: right;
+    padding-right: 5px;
+    box-sizing: border-box;
+    position: absolute;      /* Position it relative to the parent */
+}

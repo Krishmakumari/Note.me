@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "text": "Welcome.. To the notes application 😍",
+        "createdAt": "July, 07 2024",
+        "color": "#FBEB95"
+    },
+    {
+        "id": 2,
+        "text": "The act of writing is the act of discovering what you believe. – David Hare 😍",
+        "createdAt": "July, 07 2024",
+        "color": "#97D2BC"
+    },
+    {
+        "id": 3,
+        "text": "The discipline of writing something down is the first step toward making it happen. – Lee Iacocca",
+        "createdAt": "July, 07 2024",
+        "color": "#FDBAA3"
+    }
+]
